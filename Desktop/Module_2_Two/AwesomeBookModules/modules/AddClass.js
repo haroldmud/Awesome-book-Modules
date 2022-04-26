@@ -37,7 +37,7 @@ export default class Books {
             setError.textContent = 'fill all the fields please';
             setTimeout(() => {
               setError.style.display = 'none';
-            }, 2000);
+            }, 3000);
             return;
           }
           const newBook = {
